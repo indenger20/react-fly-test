@@ -1,0 +1,87 @@
+.ReactTable {
+  border: 0;
+  .rt-thead .rt-resizable-header-content {
+    color: #9399aa;
+    font-size: 14px;
+    text-align: left;
+    fill: #9399aa;
+    transition: all .3s;
+    span {
+      display: flex;
+      align-items: center;
+    }
+    svg {
+      display: block;
+      width: 8px;
+      height: 12px;
+      fill: inherit;
+      margin-left: 10px;
+      position: relative;
+      top: -1px;
+    }
+    &:hover {
+      color: #6b7285;
+      fill: #6b7285;
+      transition: all .3s;
+    }
+  }
+  .rt-resizer {
+    display: none;
+  }
+
+  .rt-thead .rt-th, 
+  .rt-thead .rt-td {
+    border: 0;
+    box-shadow: none;
+  }
+
+  .rt-thead.-header {
+    box-shadow: none;
+    border-bottom: 1px solid #d6dae6;
+  }
+
+  &.-striped .rt-tr.-odd {
+    background: none;
+  }
+
+  &.-highlight .rt-tbody .rt-tr:not(.-padRow):hover {
+    background: #f2f2f2;
+  }
+
+  .rt-tbody .rt-td {
+    color: #0b2b8e;
+    font-size: 16px;
+    border: none;
+  }
+
+  .rt-tbody .rt-tr-group {
+    border: 0;
+  }
+
+  .rt-th, 
+  .rt-td,
+  .rt-thead .rt-th,
+  .rt-thead .rt-td {
+    padding: 12px 15px;
+  }
+
+  .rt-thead .rt-th.-sort-desc, 
+  .rt-thead .rt-td.-sort-desc,
+  .rt-thead .rt-th.-sort-asc, 
+  .rt-thead .rt-td.-sort-asc {
+    box-shadow: none;
+  }
+
+  
+
+}
+
+.ReactTable {
+  .rt-tr {
+    &.is-active {
+      .rt-td {
+        color: #0b2b8e;
+      }
+    }
+  }
+}

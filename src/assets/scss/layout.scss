@@ -1,0 +1,62 @@
+body {
+  font: 400 16px 'Roboto';
+  min-width: 450px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main-content {
+  display: flex;
+  position: relative;
+  transition: all 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: #f71038;
+  font-size: 14px;
+  transition: all 0.3s;
+  &:hover {
+    color: #ff7089;
+    transition: all 0.3s;
+  }
+}
+
+.custom-link {
+  text-decoration: none;
+  color: #f71038;
+  font-size: 12px;
+  transition: all 0.3s;
+  margin-top: 10px;
+  display: table;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    opacity: 0.8;
+    transition: all 0.3s;
+  }
+}
+
+.main-content {
+  display: flex;
+  padding: 15px 0;
+}
+
+.main {
+  width: calc(100% - 300px);
+}
+
+.aside {
+  width: 300px;
+  padding: 0 0 0 15px;
+}
