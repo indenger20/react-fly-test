@@ -1,6 +1,6 @@
 React.js developer test
 
-[Demo](https://react-fly-test.herokuapp.com/)
+[Demo](http://react-fly-test.herokuapp.com/)
 
 ## Available Scripts
 
